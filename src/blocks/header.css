@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  border: 1px solid red;
+}
+
+.header__logo {
+  width: 20px;
+  height: 20px;
+}
+
+.header__navbar {
+}
+
+.header__list {
+  list-style-type: none;
+  display: flex;
+}
