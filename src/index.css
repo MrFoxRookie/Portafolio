@@ -1,5 +1,8 @@
+@import url("./blocks/body.css");
 @import url("./blocks/app.css");
 @import url("./blocks/header.css");
-@import url("./src/blocks/navbar.css");
-@import url("./src/blocks/main.css");
-@import url("./src/blocks/footer.css");
+@import url("./blocks/navbar.css");
+@import url("./blocks/main.css");
+@import url("./blocks/projects.css");
+@import url("./blocks/introduction.css");
+@import url("./blocks/footer.css");

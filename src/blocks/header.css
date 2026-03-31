@@ -1,11 +1,14 @@
 .header {
   display: flex;
-  border: 1px solid red;
+  background-color: #965fd4;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 30px; */
 }
 
 .header__logo {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .header__navbar {
@@ -14,4 +17,38 @@
 .header__list {
   list-style-type: none;
   display: flex;
+  gap: 20px;
+  color: #8bd450;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.header__list-element {
+  position: relative;
+  padding: 5px 10px;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.header__list-element::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #8bd450;
+  border-radius: 25px;
+  z-index: -1;
+  transition: width 0.3s ease;
+}
+
+.header__list-element:hover::before {
+  width: 100%;
+}
+
+.header__list-element:hover {
+  color: #965fd4;
+  cursor: pointer;
 }

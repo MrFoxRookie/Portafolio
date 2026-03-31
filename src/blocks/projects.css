@@ -1,0 +1,39 @@
+.projects__section {
+  display: flex;
+  gap: 40px;
+  align-items: stretch;
+  width: 90%;
+  border: 2px solid red;
+  color: black;
+  margin: 0 auto;
+}
+
+.projects__text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.projects__images-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projects__image-wrapper {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__image-wrapper img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
