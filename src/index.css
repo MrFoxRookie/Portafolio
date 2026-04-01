@@ -1,8 +1,13 @@
+@import url("./blocks/html.css");
+
 @import url("./blocks/body.css");
 @import url("./blocks/app.css");
 @import url("./blocks/header.css");
 @import url("./blocks/navbar.css");
 @import url("./blocks/main.css");
 @import url("./blocks/projects.css");
+@import url("./blocks/about.css");
+@import url("./blocks/techstack.css");
+@import url("./blocks/contact.css");
 @import url("./blocks/introduction.css");
 @import url("./blocks/footer.css");

@@ -10,9 +10,13 @@ function Main() {
       <div className="main">
         <Introduction />
         <Projects />
+        <div className="main__divider"></div>
         <About />
+        <div className="main__divider"></div>
         <TechStack />
+        <div className="main__divider"></div>
         <Contact />
+        <div className="main__divider"></div>
       </div>
     </>
   );

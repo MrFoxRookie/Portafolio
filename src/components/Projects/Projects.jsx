@@ -1,4 +1,6 @@
-import image from "../../assets/Autumn.png";
+import firstProjectFirstImage from "../../assets/project1__first-image.jpeg";
+import firstProjectSecondImage from "../../assets/project1__second-image.jpeg";
+import firstProjectThirdImage from "../../assets/project1__third-image.jpeg";
 
 function Projects() {
   return (
@@ -60,16 +62,102 @@ function Projects() {
 
         <div className="projects__images-container">
           <div className="projects__image-wrapper">
-            <img src={image} alt="" />
+            <img src={firstProjectFirstImage} alt="" />
           </div>
           <div className="projects__image-wrapper">
-            <img src={image} alt="" />
+            <img src={firstProjectSecondImage} alt="" />
           </div>
           <div className="projects__image-wrapper">
-            <img src={image} alt="" />
+            <img src={firstProjectThirdImage} alt="" />
           </div>
         </div>
       </section>
+      <section className="projects__section">
+        <div className="projects__text-container">
+          <h3 className="projects__title">Around the World</h3>
+          <p className="projects__subtitle">Descripción</p>
+          <p className="projects__text">
+            Proyecto full-stack desarrollado durante mi formación en el stack
+            tecnológico de la plataforma. La aplicación fue construida con HTML,
+            CSS y JavaScript en el frontend, y con Node.js, Express y MongoDB en
+            el backend. Incorpora un sistema de autenticación y registro de
+            usuarios mediante JWT, permitiendo a los usuarios gestionar su
+            perfil y administrar sus tarjetas de forma dinámica para
+            compartirlas con otros usuarios dentro de la plataforma.
+          </p>
+          <p className="projects__subtitle">Funcionalidades</p>
+          <ul className="projects__list">
+            <li className="projects__list-elements">
+              Autenticación de usuarios mediante JWT (registro e inicio de
+              sesión).
+            </li>
+            <li className="projects__list-elements">
+              Gestión de perfil de usuario (edición de información personal).
+            </li>
+            <li className="projects__list-elements">
+              Creación, eliminación y visualización de tarjetas dinámicas.
+            </li>
+            <li className="projects__list-elements">
+              Interacción entre usuarios mediante el compartido de tarjetas.
+            </li>
+            <li className="projects__list-elements">
+              Integración de backend con Node.js, Express y base de datos
+              MongoDB.
+            </li>
+          </ul>
+
+          <p className="projects__subtitle">Aprendizajes clave</p>
+          <p className="projects__text">
+            Este proyecto me permitió fortalecer mis habilidades en desarrollo
+            full-stack, especialmente en la implementación de sistemas de
+            autenticación con JWT y la gestión de datos en MongoDB. Integré
+            correctamente el frontend con el backend utilizando Node.js y
+            Express, aplicando buenas prácticas para asegurar un código limpio,
+            escalable y mantenible.
+          </p>
+        </div>
+
+        <div className="projects__images-container">
+          <div className="projects__image-wrapper">
+            <img src="" alt="Proyecto 2" />
+          </div>
+          <div className="projects__image-wrapper">
+            <img src="" alt="Proyecto 2" />
+          </div>
+          <div className="projects__image-wrapper">
+            <img src="" alt="Proyecto 2" />
+          </div>
+        </div>
+      </section>
+      {/* <section className="projects__section">
+        <div className="projects__text-container">
+          <h3 className="projects__title">Proyecto 3</h3>
+          <p className="projects__subtitle">Descripción</p>
+          <p className="projects__text"></p>
+
+          <p className="projects__subtitle">Funcionalidades</p>
+          <ul className="projects__list">
+            <li className="projects__list-elements"></li>
+            <li className="projects__list-elements"></li>
+            <li className="projects__list-elements"></li>
+          </ul>
+
+          <p className="projects__subtitle">Aprendizajes clave</p>
+          <p className="projects__text"></p>
+        </div>
+
+        <div className="projects__images-container">
+          <div className="projects__image-wrapper">
+            <img src={image} alt="Proyecto 3" />
+          </div>
+          <div className="projects__image-wrapper">
+            <img src={image} alt="Proyecto 3" />
+          </div>
+          <div className="projects__image-wrapper">
+            <img src={image} alt="Proyecto 3" />
+          </div>
+        </div>
+      </section> */}
     </section>
   );
 }

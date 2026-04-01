@@ -7,10 +7,26 @@ function Header() {
         <img className="header__logo" src={logo} alt="logo" />
         <nav className="header__navbar">
           <ul className="header__list">
-            <li className="header__list-element">Sobre mí</li>
-            <li className="header__list-element">Proyectos</li>
-            <li className="header__list-element">Tecnologías</li>
-            <li className="header__list-element">Contacto</li>
+            <li className="header__list-element">
+              <a className="header__link" href="#about">
+                Sobre mí
+              </a>
+            </li>
+            <li className="header__list-element">
+              <a className="header__link" href="#projects">
+                Proyectos
+              </a>
+            </li>
+            <li className="header__list-element">
+              <a className="header__link" href="#technologies">
+                Tecnologías
+              </a>
+            </li>
+            <li className="header__list-element">
+              <a className="header__link" href="#contact">
+                Contacto
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

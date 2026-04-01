@@ -1,0 +1,8 @@
+.contact {
+  color: black;
+}
+
+.contact__email {
+  text-decoration: none;
+  color: inherit;
+}

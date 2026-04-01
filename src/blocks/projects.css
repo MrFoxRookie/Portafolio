@@ -2,7 +2,6 @@
   display: flex;
   gap: 40px;
   align-items: stretch;
-  width: 90%;
   border: 2px solid red;
   color: black;
   margin: 0 auto;
@@ -34,6 +33,6 @@
 .projects__image-wrapper img {
   width: 50%;
   height: 50%;
-  object-fit: cover;
+  object-fit: fill;
   display: block;
 }
