@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <div className="header">
-        <img className="header__logo" src={logo} alt="logo" />
+        {/* <img className="header__logo" src={logo} alt="logo" /> */}
         <nav className="header__navbar">
           <ul className="header__list">
             <li className="header__list-element">

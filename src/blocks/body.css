@@ -1,7 +1,7 @@
 body {
-  /* background-color: #734f9a; */
+  background-color: #734f9a;
   color: white;
-
-  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+  /* padding: 0 40px; */
   margin: 0;
 }
