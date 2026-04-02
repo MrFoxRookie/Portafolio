@@ -1,11 +1,10 @@
 .introduction {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: self-end;
   margin-top: 230px;
   text-align: center;
-  min-height: 100vh;
 }
 
 .introduction__title {

@@ -18,7 +18,7 @@ function Header() {
               </a>
             </li>
             <li className="header__list-element">
-              <a className="header__link" href="#technologies">
+              <a className="header__link" href="#stack">
                 Tecnologías
               </a>
             </li>

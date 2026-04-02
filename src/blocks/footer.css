@@ -1,7 +1,19 @@
 .footer {
   color: black;
+  text-align: center;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .footer__icon {
-  width: 30px;
+  width: 50px;
+}
+
+.footer__copyright {
+  margin: 20px 0 0;
+  padding-bottom: 20px;
 }

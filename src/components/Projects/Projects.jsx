@@ -1,11 +1,12 @@
-import firstProjectFirstImage from "../../assets/project1__first-image.jpeg";
-import firstProjectSecondImage from "../../assets/project1__second-image.jpeg";
-import firstProjectThirdImage from "../../assets/project1__third-image.jpeg";
+import projectFirstImage from "../../assets/projects/project1.1.png";
+import projectSecondImage from "../../assets/projects/project1.2.png";
+import projectThirdImage from "../../assets/projects/project2.1.png";
+import projectFourthImage from "../../assets/projects/project2.2.png";
 
 function Projects() {
   return (
     <section className="projects section" id="projects">
-      <h2 className="projects__heading">Proyecto</h2>
+      <h2 className="projects__heading">Proyectos</h2>
       <section className="projects__section">
         <div className="projects__text-container">
           <h3 className="projects__title">News Explorer</h3>
@@ -62,13 +63,11 @@ function Projects() {
 
         <div className="projects__images-container">
           <div className="projects__image-wrapper">
-            <img src={firstProjectFirstImage} alt="" />
+            <img src={projectFirstImage} alt="" />
           </div>
+
           <div className="projects__image-wrapper">
-            <img src={firstProjectSecondImage} alt="" />
-          </div>
-          <div className="projects__image-wrapper">
-            <img src={firstProjectThirdImage} alt="" />
+            <img src={projectSecondImage} alt="" />
           </div>
         </div>
       </section>
@@ -119,13 +118,10 @@ function Projects() {
 
         <div className="projects__images-container">
           <div className="projects__image-wrapper">
-            <img src="" alt="Proyecto 2" />
+            <img src={projectThirdImage} alt="Proyecto 2" />
           </div>
           <div className="projects__image-wrapper">
-            <img src="" alt="Proyecto 2" />
-          </div>
-          <div className="projects__image-wrapper">
-            <img src="" alt="Proyecto 2" />
+            <img src={projectFourthImage} alt="Proyecto 2" />
           </div>
         </div>
       </section>

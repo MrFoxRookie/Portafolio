@@ -1,4 +1,4 @@
-.app__background {
+.app__intro-background {
   position: relative;
   background-image: url("../assets/app.png");
   background-size: cover;
@@ -9,14 +9,36 @@
   padding: 0 15%;
 }
 
-.app__background::before {
+.app__intro-background::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.3);
 }
 
-.app__background > * {
+.app__intro-background > * {
+  position: relative;
+  z-index: 1;
+}
+
+.app__main-background {
+  background-image: url("../assets/main.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+  padding: 0 15%;
+}
+
+.app__main-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.app__main-background > * {
   position: relative;
   z-index: 1;
 }
