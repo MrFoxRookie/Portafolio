@@ -7,10 +7,11 @@ function Main() {
   return (
     <>
       <div className="main">
-        <Projects />
-        <div className="main__divider"></div>
         <About />
         <div className="main__divider"></div>
+        <Projects />
+        <div className="main__divider"></div>
+
         <TechStack />
         <div className="main__divider"></div>
         <Contact />

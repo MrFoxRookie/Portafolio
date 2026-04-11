@@ -2,9 +2,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: self-end;
-  margin-top: 230px;
+
+  /* margin-top: 230px; */
   text-align: center;
+}
+
+.introduction__visual-section {
+  display: flex;
+  margin-top: 100px;
+}
+
+.introduction__image {
+  border-radius: 20px;
+  height: 350px;
+  width: 350px;
+}
+
+.introduction__name-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
 }
 
 .introduction__title {
@@ -13,6 +31,11 @@
 }
 
 .introduction__subtitle {
-  font-size: 35px;
+  font-size: 40px;
   margin: 0 auto 10px;
+}
+
+.introduction__text {
+  font-size: 30px;
+  text-align: justify;
 }

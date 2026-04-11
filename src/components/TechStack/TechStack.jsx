@@ -7,6 +7,7 @@ import expressIcon from "../../assets/tech-icons/express.svg";
 import figmaIcon from "../../assets/tech-icons/figma.svg";
 import viteIcon from "../../assets/tech-icons/vite.svg";
 import mongoIcon from "../../assets/tech-icons/mongodb.svg";
+import gitIcon from "../../assets/tech-icons/git.svg";
 
 function TechStack() {
   return (
@@ -57,6 +58,11 @@ function TechStack() {
         <div className="stack__item">
           <img src={mongoIcon} alt="MongoDB" className="stack__icon" />
           <p className="stack__name">MongoDB</p>
+        </div>
+
+        <div className="stack__item">
+          <img src={gitIcon} alt="Git" className="stack__icon" />
+          <p className="stack__name">Git</p>
         </div>
       </div>
     </section>

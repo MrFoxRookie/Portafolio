@@ -7,6 +7,9 @@ function Projects() {
   return (
     <section className="projects section" id="projects">
       <h2 className="projects__heading">Proyectos</h2>
+
+      {/* <section className="projects__section"></section> */}
+
       <section className="projects__section">
         <div className="projects__text-container">
           <h3 className="projects__title">News Explorer</h3>

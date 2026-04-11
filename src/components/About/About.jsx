@@ -6,15 +6,20 @@ function About() {
       <div className="about__text-section">
         <h2 className="about__title">Acerca de mí</h2>
         <p className="about__text">
-          Soy un desarrollador web apasionado por el aprendizaje continuo y
-          comprometido con la innovación que la tecnología ofrece hoy en día. Me
-          enfoco en la creación de sitios web eficientes y dinámicos que brinden
-          a los usuarios experiencias que trasciendan sus pantallas.
+          De la mano de mi <a href="#stack">Tech Stack</a>, enfocado tanto en el
+          frontend como en el backend, soy una persona a la que le gustan los
+          retos, ya que no solo me ponen a prueba, sino que también me impulsan
+          a innovar y crear código que no solo ofrezca soluciones eficientes,
+          sino que también brinde a los usuarios experiencias que satisfagan sus
+          necesidades.
         </p>
+
         <p className="about__text">
-          Siempre estoy entusiasmado por nuevos proyectos y retos que pongan a
-          prueba mis habilidades, al mismo tiempo que me permiten seguir
-          creciendo como desarrollador.
+          Gracias a mi experiencia como comerciante, me considero una persona
+          responsable y observadora al momento de comprender las necesidades de
+          los clientes, lo cual me motiva a seguir aprendiendo y a desarrollar
+          soluciones que reflejen mis habilidades y compromiso en cada proyecto
+          en el que participo.
         </p>
       </div>
       <div className="about__image-section">
