@@ -8,9 +8,56 @@ function Projects() {
     <section className="projects section" id="projects">
       <h2 className="projects__heading">Proyectos</h2>
 
-      {/* <section className="projects__section"></section> */}
+      <section className="projects__section">
+        <img className="projects__image" src={projectFirstImage} alt="" />
+
+        <div className="projects__text-container">
+          <h3 className="projects__title">News Explorer</h3>
+          <p className="projects__text">
+            Proyecto full-stack desarrollado como proyecto final del bootcamp de
+            Desarrollo Web de TripleTen. Construido con React y Node.js, integra
+            una API de búsqueda de noticias que presenta los resultados mediante
+            una interfaz basada en tarjetas dinámicas. Además, cuenta con un
+            sistema de guardado utilizando una base de datos MongoDB,
+            permitiendo a los usuarios gestionar y personalizar su lista de
+            noticias de interés tras realizar una autorización de usuario.{" "}
+            <span className="projects__technologies">
+              {" "}
+              Las tecnologías utilizadas han sido: HTML, CSS, JS, Vite, React
+              Node.js, Express y MongoDB.
+            </span>
+          </p>
+        </div>
+      </section>
+      <div className="projects__links-container">
+        <p className="projects__link"> Code</p>
+        <p className="projects__link">Live</p>
+      </div>
 
       <section className="projects__section">
+        <img className="projects__image" src={projectThirdImage} alt="" />
+
+        <div className="projects__text-container">
+          <h3 className="projects__title">Around the World</h3>
+          <p className="projects__text">
+            Proyecto full-stack desarrollado durante mi formación en desarrollo
+            web. La aplicación permite a los usuarios registrarse, iniciar
+            sesión y gestionar su perfil, así como crear, visualizar y eliminar
+            tarjetas de forma dinámica para compartir contenido con otros
+            usuarios.{" "}
+            <span className="projects__technologies">
+              Las tecnologías utilizadas han sido: HTML, CSS, JavaScript,
+              Node.js, Express y MongoDB.
+            </span>
+          </p>
+        </div>
+      </section>
+      <div className="projects__links-container">
+        <p className="projects__link">Code</p>
+        <p className="projects__link">Live</p>
+      </div>
+
+      {/* <section className="projects__section">
         <div className="projects__text-container">
           <h3 className="projects__title">News Explorer</h3>
           <p className="projects__subtitle">Descripción</p>
@@ -127,7 +174,7 @@ function Projects() {
             <img src={projectFourthImage} alt="Proyecto 2" />
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section className="projects__section">
         <div className="projects__text-container">
           <h3 className="projects__title">Proyecto 3</h3>

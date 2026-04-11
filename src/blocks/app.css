@@ -7,7 +7,6 @@
   background-color: rgb(228, 227, 227);
   min-height: 100vh;
   background-attachment: fixed;
-  padding: 0 15%;
 }
 
 .app__intro-background::before {
@@ -30,7 +29,6 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   background-attachment: fixed;
-  padding: 0 15%;
 }
 
 .app__main-background::before {
