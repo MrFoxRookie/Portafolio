@@ -12,7 +12,9 @@ import gitIcon from "../../assets/tech-icons/git.svg";
 function TechStack() {
   return (
     <section className="stack section" id="stack">
-      <h2 className="stack__title">Tech Stack</h2>
+      <h2 className="stack__title">
+        Tech Stack <img />
+      </h2>
 
       <div className="stack__grid">
         <div className="stack__item">

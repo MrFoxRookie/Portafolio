@@ -7,6 +7,14 @@
 
 .stack__title {
   font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stack__title-icon {
+  width: 50px;
 }
 
 .stack__grid {
