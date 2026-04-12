@@ -1,9 +1,9 @@
 .app__intro-background {
   position: relative;
-  /* background-image: url("../assets/app.png");
+  background-image: url("../assets/app.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-color: rgb(228, 227, 227);
   min-height: 100vh;
   background-attachment: fixed;
