@@ -30,8 +30,15 @@ function Projects() {
         </div>
       </section>
       <div className="projects__links-container">
-        <p className="projects__link"> Code</p>
-        <p className="projects__link">Live</p>
+        <a
+          className="projects__link"
+          href="https://github.com/MrFoxRookie/News-Explorer-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a className="projects__link">Live</a>
       </div>
 
       <section className="projects__section">
@@ -53,8 +60,15 @@ function Projects() {
         </div>
       </section>
       <div className="projects__links-container">
-        <p className="projects__link">Code</p>
-        <p className="projects__link">Live</p>
+        <a
+          className="projects__link"
+          href="https://github.com/MrFoxRookie/Around-the-World-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a className="projects__link">Live</a>
       </div>
 
       {/* <section className="projects__section">
